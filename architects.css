@@ -103,23 +103,31 @@ main > section{
 .quick-list{
   font-weight: 500; 
 }
-
-/* futures section related styles */
 .features{
-  gap: 140px;
-}
-.feature{
   color: #FF900E;
 }
+
+/* futures section related styles */
+.feature{
+  gap: 140px;
+}
+
 .future-section-title{
   border-left: 5px solid #FF900E;
   padding-left: 20px;
+  font-size: 2.8rem;
+  font-weight: 700;
 }
 .feature-card{
   padding: 30px;
   border-radius: 8px;
   box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
   margin-bottom: 20px;
+}
+.feature-card p{
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 400;
 }
 .feature-card,
 .feture-title{
@@ -184,6 +192,31 @@ main > section{
 }
 .sponsor-company img{
   filter: grayscale(100%);
+}
+.sponsor-title{
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+.sponsor-discription{
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+}
+
+/* footer section */
+.footer-section{  
+    max-width: 1440px;
+    height: 100px;
+    align-content: center;
+    border-radius: 8px;
+    margin: 0 auto;
+    margin-top: 130px;
+    margin-bottom: 220px;
+}
+.footer-section p{
+  font-size: 1.25rem;
+  font-weight: 400;
+  text-align: center;
 }
 
 /* responsive media query */
